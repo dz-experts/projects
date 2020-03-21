@@ -1,0 +1,16 @@
+language: python
+
+python:
+  - "3.6"
+
+script:
+  - mkdocs build
+
+deploy:
+  provider: pages
+  local-dir: site
+  skip-cleanup: true
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
