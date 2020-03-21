@@ -2,7 +2,6 @@
 
 *.py[co]
 
-docs/index.md
 site/
 
 .vscode
