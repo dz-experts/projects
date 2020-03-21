@@ -1,0 +1,25 @@
+site_name: COVID-19 DZ Projects
+site_url: https://projects.covid19dz.com
+site_description: A list of projects for dealing with COVID-19 and issues related.
+site_author: DZ Experts
+repo_name: dz-experts/projects.covid19dz.com
+repo_url: https://github.com/dz-experts/projects.covid19dz.com
+theme:
+  name: material
+  direction: auto
+  palette:
+    primary: green
+    accent: red
+extra:
+  social:
+    - type: github
+      link: https://github.com/dz-experts/projects.covid19dz.com
+google_analytics:
+  - UA-XXXXXX-X
+  - auto
+extra_css:
+    - css/extra.css
+nav:
+  - "العربية": "index.md"
+  - "English": "index-en.md"
+  - "Français": "index-fr.md"
