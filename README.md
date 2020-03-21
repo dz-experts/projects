@@ -14,6 +14,17 @@ You can have a live-reloaded website on http://127.0.0.1:8000 by simply running.
 
 Any changes you make to the files on your machine, will automatically get reflected in the preview website
 
+# Deployment
+
+**Note, this can only be made from a clone of the main repo (not a fork).**
+
+From your machine, run the following commands:
+
+    make site_build
+
+    make site_deploy
+
+TODO: setup automatic deploys.
 
 # Contributing
 
